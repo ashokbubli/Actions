@@ -1,0 +1,12 @@
+name: first work flow
+on: workflow dispatch
+jobs: 
+  first job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: print1
+        run: echo "ab"
+      - name: print2
+        run: echo "ba"
+      
+  
